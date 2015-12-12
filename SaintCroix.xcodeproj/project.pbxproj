@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33E61BD91C1C6600000F9233 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E61BD81C1C6600000F9233 /* main.m */; };
+		33E61BDC1C1C6600000F9233 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E61BDB1C1C6600000F9233 /* AppDelegate.m */; };
+		33E61BDF1C1C6600000F9233 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E61BDE1C1C6600000F9233 /* ViewController.m */; };
+		33E61BE21C1C6600000F9233 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33E61BE01C1C6600000F9233 /* Main.storyboard */; };
+		33E61BE41C1C6600000F9233 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33E61BE31C1C6600000F9233 /* Assets.xcassets */; };
+		33E61BE71C1C6600000F9233 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33E61BE51C1C6600000F9233 /* LaunchScreen.storyboard */; };
+		33E61BF21C1C6601000F9233 /* SaintCroixTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E61BF11C1C6601000F9233 /* SaintCroixTests.m */; };
+		33E61BFD1C1C6601000F9233 /* SaintCroixUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E61BFC1C1C6601000F9233 /* SaintCroixUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33E61BEE1C1C6601000F9233 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33E61BCC1C1C6600000F9233 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33E61BD31C1C6600000F9233;
+			remoteInfo = SaintCroix;
+		};
+		33E61BF91C1C6601000F9233 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33E61BCC1C1C6600000F9233 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33E61BD31C1C6600000F9233;
+			remoteInfo = SaintCroix;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33E61BD41C1C6600000F9233 /* SaintCroix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaintCroix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33E61BD81C1C6600000F9233 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		33E61BDA1C1C6600000F9233 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		33E61BDB1C1C6600000F9233 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		33E61BDD1C1C6600000F9233 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		33E61BDE1C1C6600000F9233 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		33E61BE11C1C6600000F9233 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33E61BE31C1C6600000F9233 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33E61BE61C1C6600000F9233 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		33E61BE81C1C6600000F9233 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33E61BED1C1C6601000F9233 /* SaintCroixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaintCroixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33E61BF11C1C6601000F9233 /* SaintCroixTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SaintCroixTests.m; sourceTree = "<group>"; };
+		33E61BF31C1C6601000F9233 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33E61BF81C1C6601000F9233 /* SaintCroixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaintCroixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33E61BFC1C1C6601000F9233 /* SaintCroixUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SaintCroixUITests.m; sourceTree = "<group>"; };
+		33E61BFE1C1C6601000F9233 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33E61BD11C1C6600000F9233 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33E61BEA1C1C6601000F9233 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33E61BF51C1C6601000F9233 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33E61BCB1C1C6600000F9233 = {
+			isa = PBXGroup;
+			children = (
+				33E61BD61C1C6600000F9233 /* SaintCroix */,
+				33E61BF01C1C6601000F9233 /* SaintCroixTests */,
+				33E61BFB1C1C6601000F9233 /* SaintCroixUITests */,
+				33E61BD51C1C6600000F9233 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33E61BD51C1C6600000F9233 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33E61BD41C1C6600000F9233 /* SaintCroix.app */,
+				33E61BED1C1C6601000F9233 /* SaintCroixTests.xctest */,
+				33E61BF81C1C6601000F9233 /* SaintCroixUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33E61BD61C1C6600000F9233 /* SaintCroix */ = {
+			isa = PBXGroup;
+			children = (
+				33E61BDA1C1C6600000F9233 /* AppDelegate.h */,
+				33E61BDB1C1C6600000F9233 /* AppDelegate.m */,
+				33E61BDD1C1C6600000F9233 /* ViewController.h */,
+				33E61BDE1C1C6600000F9233 /* ViewController.m */,
+				33E61BE01C1C6600000F9233 /* Main.storyboard */,
+				33E61BE31C1C6600000F9233 /* Assets.xcassets */,
+				33E61BE51C1C6600000F9233 /* LaunchScreen.storyboard */,
+				33E61BE81C1C6600000F9233 /* Info.plist */,
+				33E61BD71C1C6600000F9233 /* Supporting Files */,
+			);
+			path = SaintCroix;
+			sourceTree = "<group>";
+		};
+		33E61BD71C1C6600000F9233 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33E61BD81C1C6600000F9233 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		33E61BF01C1C6601000F9233 /* SaintCroixTests */ = {
+			isa = PBXGroup;
+			children = (
+				33E61BF11C1C6601000F9233 /* SaintCroixTests.m */,
+				33E61BF31C1C6601000F9233 /* Info.plist */,
+			);
+			path = SaintCroixTests;
+			sourceTree = "<group>";
+		};
+		33E61BFB1C1C6601000F9233 /* SaintCroixUITests */ = {
+			isa = PBXGroup;
+			children = (
+				33E61BFC1C1C6601000F9233 /* SaintCroixUITests.m */,
+				33E61BFE1C1C6601000F9233 /* Info.plist */,
+			);
+			path = SaintCroixUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33E61BD31C1C6600000F9233 /* SaintCroix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33E61C011C1C6601000F9233 /* Build configuration list for PBXNativeTarget "SaintCroix" */;
+			buildPhases = (
+				33E61BD01C1C6600000F9233 /* Sources */,
+				33E61BD11C1C6600000F9233 /* Frameworks */,
+				33E61BD21C1C6600000F9233 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SaintCroix;
+			productName = SaintCroix;
+			productReference = 33E61BD41C1C6600000F9233 /* SaintCroix.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33E61BEC1C1C6601000F9233 /* SaintCroixTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33E61C041C1C6601000F9233 /* Build configuration list for PBXNativeTarget "SaintCroixTests" */;
+			buildPhases = (
+				33E61BE91C1C6601000F9233 /* Sources */,
+				33E61BEA1C1C6601000F9233 /* Frameworks */,
+				33E61BEB1C1C6601000F9233 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33E61BEF1C1C6601000F9233 /* PBXTargetDependency */,
+			);
+			name = SaintCroixTests;
+			productName = SaintCroixTests;
+			productReference = 33E61BED1C1C6601000F9233 /* SaintCroixTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		33E61BF71C1C6601000F9233 /* SaintCroixUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33E61C071C1C6601000F9233 /* Build configuration list for PBXNativeTarget "SaintCroixUITests" */;
+			buildPhases = (
+				33E61BF41C1C6601000F9233 /* Sources */,
+				33E61BF51C1C6601000F9233 /* Frameworks */,
+				33E61BF61C1C6601000F9233 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33E61BFA1C1C6601000F9233 /* PBXTargetDependency */,
+			);
+			name = SaintCroixUITests;
+			productName = SaintCroixUITests;
+			productReference = 33E61BF81C1C6601000F9233 /* SaintCroixUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33E61BCC1C1C6600000F9233 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Justin Haar";
+				TargetAttributes = {
+					33E61BD31C1C6600000F9233 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					33E61BEC1C1C6601000F9233 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 33E61BD31C1C6600000F9233;
+					};
+					33E61BF71C1C6601000F9233 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 33E61BD31C1C6600000F9233;
+					};
+				};
+			};
+			buildConfigurationList = 33E61BCF1C1C6600000F9233 /* Build configuration list for PBXProject "SaintCroix" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33E61BCB1C1C6600000F9233;
+			productRefGroup = 33E61BD51C1C6600000F9233 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33E61BD31C1C6600000F9233 /* SaintCroix */,
+				33E61BEC1C1C6601000F9233 /* SaintCroixTests */,
+				33E61BF71C1C6601000F9233 /* SaintCroixUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33E61BD21C1C6600000F9233 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33E61BE71C1C6600000F9233 /* LaunchScreen.storyboard in Resources */,
+				33E61BE41C1C6600000F9233 /* Assets.xcassets in Resources */,
+				33E61BE21C1C6600000F9233 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33E61BEB1C1C6601000F9233 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33E61BF61C1C6601000F9233 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33E61BD01C1C6600000F9233 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33E61BDF1C1C6600000F9233 /* ViewController.m in Sources */,
+				33E61BDC1C1C6600000F9233 /* AppDelegate.m in Sources */,
+				33E61BD91C1C6600000F9233 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33E61BE91C1C6601000F9233 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33E61BF21C1C6601000F9233 /* SaintCroixTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33E61BF41C1C6601000F9233 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33E61BFD1C1C6601000F9233 /* SaintCroixUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33E61BEF1C1C6601000F9233 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33E61BD31C1C6600000F9233 /* SaintCroix */;
+			targetProxy = 33E61BEE1C1C6601000F9233 /* PBXContainerItemProxy */;
+		};
+		33E61BFA1C1C6601000F9233 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33E61BD31C1C6600000F9233 /* SaintCroix */;
+			targetProxy = 33E61BF91C1C6601000F9233 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33E61BE01C1C6600000F9233 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33E61BE11C1C6600000F9233 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		33E61BE51C1C6600000F9233 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33E61BE61C1C6600000F9233 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33E61BFF1C1C6601000F9233 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		33E61C001C1C6601000F9233 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33E61C021C1C6601000F9233 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SaintCroix/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JustinHaar.SaintCroix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		33E61C031C1C6601000F9233 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SaintCroix/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JustinHaar.SaintCroix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		33E61C051C1C6601000F9233 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SaintCroixTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JustinHaar.SaintCroixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SaintCroix.app/SaintCroix";
+			};
+			name = Debug;
+		};
+		33E61C061C1C6601000F9233 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SaintCroixTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JustinHaar.SaintCroixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SaintCroix.app/SaintCroix";
+			};
+			name = Release;
+		};
+		33E61C081C1C6601000F9233 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SaintCroixUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JustinHaar.SaintCroixUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SaintCroix;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		33E61C091C1C6601000F9233 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SaintCroixUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JustinHaar.SaintCroixUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SaintCroix;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33E61BCF1C1C6600000F9233 /* Build configuration list for PBXProject "SaintCroix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33E61BFF1C1C6601000F9233 /* Debug */,
+				33E61C001C1C6601000F9233 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33E61C011C1C6601000F9233 /* Build configuration list for PBXNativeTarget "SaintCroix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33E61C021C1C6601000F9233 /* Debug */,
+				33E61C031C1C6601000F9233 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		33E61C041C1C6601000F9233 /* Build configuration list for PBXNativeTarget "SaintCroixTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33E61C051C1C6601000F9233 /* Debug */,
+				33E61C061C1C6601000F9233 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		33E61C071C1C6601000F9233 /* Build configuration list for PBXNativeTarget "SaintCroixUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33E61C081C1C6601000F9233 /* Debug */,
+				33E61C091C1C6601000F9233 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33E61BCC1C1C6600000F9233 /* Project object */;
+}
