@@ -28,6 +28,8 @@
     [super viewDidLoad];
 
     self.title = @"St. Croix";
+    [self.navigationController setNavigationBarHidden:YES];
+
 
     self.manager = [CLLocationManager new];
     [self.manager requestWhenInUseAuthorization];
@@ -65,12 +67,20 @@
 {
     self.mapView.delegate = self;
     [self.mapView setMapType:MKMapTypeSatelliteFlyover];
+    [self.navigationController setNavigationBarHidden:YES];
+
 
 }
 
 -(void)viewDidDisappear:(BOOL)animated
 {
+
+}
+
+-(void)viewWillDisappear:(BOOL)animated
+{
     self.mapView.delegate = nil;
+    [self.navigationController setNavigationBarHidden:NO];
 }
 
 -(void)didReceiveMemoryWarning
