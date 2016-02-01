@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3386D1A21C1DF0FE002FCF24 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3386D1A11C1DF0FE002FCF24 /* Media.xcassets */; };
 		33E61BD91C1C6600000F9233 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E61BD81C1C6600000F9233 /* main.m */; };
 		33E61BDC1C1C6600000F9233 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E61BDB1C1C6600000F9233 /* AppDelegate.m */; };
 		33E61BDF1C1C6600000F9233 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E61BDE1C1C6600000F9233 /* ViewController.m */; };
@@ -15,6 +16,22 @@
 		33E61BE71C1C6600000F9233 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33E61BE51C1C6600000F9233 /* LaunchScreen.storyboard */; };
 		33E61BF21C1C6601000F9233 /* SaintCroixTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E61BF11C1C6601000F9233 /* SaintCroixTests.m */; };
 		33E61BFD1C1C6601000F9233 /* SaintCroixUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E61BFC1C1C6601000F9233 /* SaintCroixUITests.m */; };
+		33E61C0C1C1C66D4000F9233 /* Farm.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E61C0B1C1C66D4000F9233 /* Farm.m */; };
+		33E61C121C1CAC16000F9233 /* CustomPointAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E61C111C1CAC16000F9233 /* CustomPointAnnotation.m */; };
+		33E61C151C1DB199000F9233 /* VideosTV.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E61C141C1DB199000F9233 /* VideosTV.m */; };
+		33E61C181C1DB3E6000F9233 /* Sejah vid 1.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 33E61C171C1DB3E6000F9233 /* Sejah vid 1.MOV */; };
+		33E61C1A1C1DBD49000F9233 /* Sejah vid 2.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 33E61C191C1DBD49000F9233 /* Sejah vid 2.MOV */; };
+		33E61C1C1C1DC17B000F9233 /* GLS vid 1.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 33E61C1B1C1DC17B000F9233 /* GLS vid 1.MOV */; };
+		33E61C1E1C1DC185000F9233 /* GLS vid 2.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 33E61C1D1C1DC185000F9233 /* GLS vid 2.MOV */; };
+		33E61C201C1DC1DB000F9233 /* Arthur A. Richards vid 1.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 33E61C1F1C1DC1DB000F9233 /* Arthur A. Richards vid 1.MOV */; };
+		33E61C221C1DC23C000F9233 /* Hydroponic vid 1.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 33E61C211C1DC23C000F9233 /* Hydroponic vid 1.MOV */; };
+		33E61C241C1DC24C000F9233 /* Hydroponic vid 2.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 33E61C231C1DC24C000F9233 /* Hydroponic vid 2.MOV */; };
+		33E61C281C1DC2BE000F9233 /* Lagoon vid 3.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 33E61C251C1DC2BE000F9233 /* Lagoon vid 3.MOV */; };
+		33E61C291C1DC2BE000F9233 /* Lagoon vid 2.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 33E61C261C1DC2BE000F9233 /* Lagoon vid 2.MOV */; };
+		33E61C2A1C1DC2BE000F9233 /* Lagoon vid 1.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 33E61C271C1DC2BE000F9233 /* Lagoon vid 1.MOV */; };
+		33EC92441C1FAC8B000F68FC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33EC92431C1FAC8B000F68FC /* MapKit.framework */; };
+		33EC924A1C2260AF000F68FC /* Tropics.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 33EC92491C2260AF000F68FC /* Tropics.pdf */; };
+		33EC924C1C2264CC000F68FC /* SejahFarms.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 33EC924B1C2264CC000F68FC /* SejahFarms.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +52,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3386D1A11C1DF0FE002FCF24 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		33E61BD41C1C6600000F9233 /* SaintCroix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaintCroix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33E61BD81C1C6600000F9233 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		33E61BDA1C1C6600000F9233 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +69,25 @@
 		33E61BF81C1C6601000F9233 /* SaintCroixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaintCroixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33E61BFC1C1C6601000F9233 /* SaintCroixUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SaintCroixUITests.m; sourceTree = "<group>"; };
 		33E61BFE1C1C6601000F9233 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33E61C0A1C1C66D4000F9233 /* Farm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Farm.h; sourceTree = "<group>"; };
+		33E61C0B1C1C66D4000F9233 /* Farm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Farm.m; sourceTree = "<group>"; };
+		33E61C101C1CAC16000F9233 /* CustomPointAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPointAnnotation.h; sourceTree = "<group>"; };
+		33E61C111C1CAC16000F9233 /* CustomPointAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPointAnnotation.m; sourceTree = "<group>"; };
+		33E61C131C1DB199000F9233 /* VideosTV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideosTV.h; sourceTree = "<group>"; };
+		33E61C141C1DB199000F9233 /* VideosTV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideosTV.m; sourceTree = "<group>"; };
+		33E61C171C1DB3E6000F9233 /* Sejah vid 1.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "Sejah vid 1.MOV"; sourceTree = "<group>"; };
+		33E61C191C1DBD49000F9233 /* Sejah vid 2.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "Sejah vid 2.MOV"; sourceTree = "<group>"; };
+		33E61C1B1C1DC17B000F9233 /* GLS vid 1.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "GLS vid 1.MOV"; sourceTree = "<group>"; };
+		33E61C1D1C1DC185000F9233 /* GLS vid 2.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "GLS vid 2.MOV"; sourceTree = "<group>"; };
+		33E61C1F1C1DC1DB000F9233 /* Arthur A. Richards vid 1.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "Arthur A. Richards vid 1.MOV"; sourceTree = "<group>"; };
+		33E61C211C1DC23C000F9233 /* Hydroponic vid 1.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "Hydroponic vid 1.MOV"; sourceTree = "<group>"; };
+		33E61C231C1DC24C000F9233 /* Hydroponic vid 2.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "Hydroponic vid 2.MOV"; sourceTree = "<group>"; };
+		33E61C251C1DC2BE000F9233 /* Lagoon vid 3.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "Lagoon vid 3.MOV"; sourceTree = "<group>"; };
+		33E61C261C1DC2BE000F9233 /* Lagoon vid 2.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "Lagoon vid 2.MOV"; sourceTree = "<group>"; };
+		33E61C271C1DC2BE000F9233 /* Lagoon vid 1.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "Lagoon vid 1.MOV"; sourceTree = "<group>"; };
+		33EC92431C1FAC8B000F68FC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		33EC92491C2260AF000F68FC /* Tropics.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Tropics.pdf; sourceTree = "<group>"; };
+		33EC924B1C2264CC000F68FC /* SejahFarms.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = SejahFarms.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33EC92441C1FAC8B000F68FC /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +119,7 @@
 		33E61BCB1C1C6600000F9233 = {
 			isa = PBXGroup;
 			children = (
+				33EC92431C1FAC8B000F68FC /* MapKit.framework */,
 				33E61BD61C1C6600000F9233 /* SaintCroix */,
 				33E61BF01C1C6601000F9233 /* SaintCroixTests */,
 				33E61BFB1C1C6601000F9233 /* SaintCroixUITests */,
@@ -105,8 +144,16 @@
 				33E61BDB1C1C6600000F9233 /* AppDelegate.m */,
 				33E61BDD1C1C6600000F9233 /* ViewController.h */,
 				33E61BDE1C1C6600000F9233 /* ViewController.m */,
+				33E61C131C1DB199000F9233 /* VideosTV.h */,
+				33E61C141C1DB199000F9233 /* VideosTV.m */,
+				33E61C101C1CAC16000F9233 /* CustomPointAnnotation.h */,
+				33E61C111C1CAC16000F9233 /* CustomPointAnnotation.m */,
+				33E61C0A1C1C66D4000F9233 /* Farm.h */,
+				33E61C0B1C1C66D4000F9233 /* Farm.m */,
+				33E61C161C1DB3D4000F9233 /* Videos */,
 				33E61BE01C1C6600000F9233 /* Main.storyboard */,
 				33E61BE31C1C6600000F9233 /* Assets.xcassets */,
+				3386D1A11C1DF0FE002FCF24 /* Media.xcassets */,
 				33E61BE51C1C6600000F9233 /* LaunchScreen.storyboard */,
 				33E61BE81C1C6600000F9233 /* Info.plist */,
 				33E61BD71C1C6600000F9233 /* Supporting Files */,
@@ -138,6 +185,25 @@
 				33E61BFE1C1C6601000F9233 /* Info.plist */,
 			);
 			path = SaintCroixUITests;
+			sourceTree = "<group>";
+		};
+		33E61C161C1DB3D4000F9233 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				33E61C171C1DB3E6000F9233 /* Sejah vid 1.MOV */,
+				33E61C191C1DBD49000F9233 /* Sejah vid 2.MOV */,
+				33E61C1B1C1DC17B000F9233 /* GLS vid 1.MOV */,
+				33E61C1D1C1DC185000F9233 /* GLS vid 2.MOV */,
+				33E61C1F1C1DC1DB000F9233 /* Arthur A. Richards vid 1.MOV */,
+				33E61C211C1DC23C000F9233 /* Hydroponic vid 1.MOV */,
+				33E61C231C1DC24C000F9233 /* Hydroponic vid 2.MOV */,
+				33E61C251C1DC2BE000F9233 /* Lagoon vid 3.MOV */,
+				33E61C261C1DC2BE000F9233 /* Lagoon vid 2.MOV */,
+				33E61C271C1DC2BE000F9233 /* Lagoon vid 1.MOV */,
+				33EC92491C2260AF000F68FC /* Tropics.pdf */,
+				33EC924B1C2264CC000F68FC /* SejahFarms.pdf */,
+			);
+			name = Videos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +309,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33E61C241C1DC24C000F9233 /* Hydroponic vid 2.MOV in Resources */,
 				33E61BE71C1C6600000F9233 /* LaunchScreen.storyboard in Resources */,
+				3386D1A21C1DF0FE002FCF24 /* Media.xcassets in Resources */,
 				33E61BE41C1C6600000F9233 /* Assets.xcassets in Resources */,
+				33E61C1A1C1DBD49000F9233 /* Sejah vid 2.MOV in Resources */,
+				33E61C181C1DB3E6000F9233 /* Sejah vid 1.MOV in Resources */,
 				33E61BE21C1C6600000F9233 /* Main.storyboard in Resources */,
+				33EC924A1C2260AF000F68FC /* Tropics.pdf in Resources */,
+				33E61C281C1DC2BE000F9233 /* Lagoon vid 3.MOV in Resources */,
+				33E61C221C1DC23C000F9233 /* Hydroponic vid 1.MOV in Resources */,
+				33EC924C1C2264CC000F68FC /* SejahFarms.pdf in Resources */,
+				33E61C201C1DC1DB000F9233 /* Arthur A. Richards vid 1.MOV in Resources */,
+				33E61C291C1DC2BE000F9233 /* Lagoon vid 2.MOV in Resources */,
+				33E61C1C1C1DC17B000F9233 /* GLS vid 1.MOV in Resources */,
+				33E61C2A1C1DC2BE000F9233 /* Lagoon vid 1.MOV in Resources */,
+				33E61C1E1C1DC185000F9233 /* GLS vid 2.MOV in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,8 +350,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				33E61BDF1C1C6600000F9233 /* ViewController.m in Sources */,
+				33E61C121C1CAC16000F9233 /* CustomPointAnnotation.m in Sources */,
 				33E61BDC1C1C6600000F9233 /* AppDelegate.m in Sources */,
 				33E61BD91C1C6600000F9233 /* main.m in Sources */,
+				33E61C0C1C1C66D4000F9233 /* Farm.m in Sources */,
+				33E61C151C1DB199000F9233 /* VideosTV.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,7 +493,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Justin Haar (3W87GUC28E)";
 				INFOPLIST_FILE = SaintCroix/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JustinHaar.SaintCroix;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,7 +506,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Justin Haar (3W87GUC28E)";
 				INFOPLIST_FILE = SaintCroix/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JustinHaar.SaintCroix;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +582,7 @@
 				33E61C031C1C6601000F9233 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		33E61C041C1C6601000F9233 /* Build configuration list for PBXNativeTarget "SaintCroixTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +591,7 @@
 				33E61C061C1C6601000F9233 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		33E61C071C1C6601000F9233 /* Build configuration list for PBXNativeTarget "SaintCroixUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +600,7 @@
 				33E61C091C1C6601000F9233 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
