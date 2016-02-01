@@ -67,20 +67,17 @@
 {
     self.mapView.delegate = self;
     [self.mapView setMapType:MKMapTypeSatelliteFlyover];
-    [self.navigationController setNavigationBarHidden:YES];
+    [self.navigationController setNavigationBarHidden:YES animated:YES];
 
 
 }
 
--(void)viewDidDisappear:(BOOL)animated
-{
 
-}
 
 -(void)viewWillDisappear:(BOOL)animated
 {
     self.mapView.delegate = nil;
-    [self.navigationController setNavigationBarHidden:NO];
+    [self.navigationController setNavigationBarHidden:NO animated:YES];
 }
 
 -(void)didReceiveMemoryWarning
