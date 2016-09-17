@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="21A-E9-44T">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="21A-E9-44T">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -16,43 +17,30 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="yX3-Zs-vYP">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <connections>
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="xPR-IX-dr8"/>
                                 </connections>
                             </mapView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="yX3-Zs-vYP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="DlR-Gh-Kt6"/>
-                            <constraint firstItem="yX3-Zs-vYP" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="Fr3-pJ-tZs"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="yX3-Zs-vYP" secondAttribute="bottom" id="qcm-ax-4wc"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="yX3-Zs-vYP" secondAttribute="trailing" constant="-20" id="wQm-ab-ry3"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="yX3-Zs-vYP" secondAttribute="bottom" id="9h7-Vg-ZoS"/>
+                            <constraint firstItem="yX3-Zs-vYP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ATA-BI-z8g"/>
+                            <constraint firstAttribute="trailing" secondItem="yX3-Zs-vYP" secondAttribute="trailing" id="c4K-P8-IWO"/>
+                            <constraint firstItem="yX3-Zs-vYP" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="tcd-eu-Zg0"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="yX3-Zs-vYP"/>
                             </mask>
-                            <mask key="constraints">
-                                <exclude reference="qcm-ax-4wc"/>
-                                <exclude reference="DlR-Gh-Kt6"/>
-                                <exclude reference="Fr3-pJ-tZs"/>
-                                <exclude reference="wQm-ab-ry3"/>
-                            </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="yX3-Zs-vYP"/>
-                            </mask>
-                            <mask key="constraints">
-                                <include reference="qcm-ax-4wc"/>
-                                <include reference="DlR-Gh-Kt6"/>
-                                <include reference="Fr3-pJ-tZs"/>
-                                <include reference="wQm-ab-ry3"/>
                             </mask>
                         </variation>
                     </view>
@@ -63,7 +51,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1206" y="321"/>
+            <point key="canvasLocation" x="1205.5999999999999" y="320.68965517241384"/>
         </scene>
         <!--VideosTV-->
         <scene sceneID="g4C-f3-Dij">
@@ -74,17 +62,18 @@
                         <viewControllerLayoutGuide type="bottom" id="km9-ze-Gp3"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ZC4-dy-PN4">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ecN-Ze-6v6">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ecN-Ze-6v6">
+                                <frame key="frameInset" width="240" height="128"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cellID" id="4qC-6x-aE7">
+                                        <rect key="frame" x="0.0" y="92" width="240" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="4qC-6x-aE7" id="gta-Fl-7eY">
-                                            <rect key="frame" x="0.0" y="0.0" width="240" height="43"/>
+                                            <frame key="frameInset" width="240" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -95,7 +84,7 @@
                                 </connections>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="ecN-Ze-6v6" secondAttribute="trailing" constant="-20" id="TGI-Yi-2bB"/>
                             <constraint firstItem="ecN-Ze-6v6" firstAttribute="leading" secondItem="ZC4-dy-PN4" secondAttribute="leadingMargin" constant="-20" id="gL2-9y-bhv"/>

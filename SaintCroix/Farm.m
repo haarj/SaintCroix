@@ -60,6 +60,8 @@ static NSString *const image = @"Triangle";
     NSURL *lagoonURL3 = [NSURL fileURLWithPath:lagoon3];
 
 
+    NSString *garden = [[NSBundle mainBundle]pathForResource:@"Community Garden" ofType:@"MOV"];
+    NSURL *gardenUrl = [NSURL fileURLWithPath:garden];
 
     NSArray *array = [NSArray arrayWithObjects:
                       @{@"title": @"Lagoon Fisherman",
@@ -96,8 +98,14 @@ static NSString *const image = @"Triangle";
                         @"videos": @[sejahURL, sejahURL2, sejahURL3]
 
                         },
-                      nil];
+                      @{@"title" : @"UVI and Sejah Farm's Water Gut Community Garden",
+                        @"lattitude" : [NSNumber numberWithDouble:17.747216],
+                        @"longitude" : [NSNumber numberWithDouble:-64.707750],
+                        @"videos" : @[gardenUrl]
+                        },
+                        nil];
 
+    
     return array;
 
 }

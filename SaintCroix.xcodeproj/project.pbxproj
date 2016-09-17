@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3386D1A21C1DF0FE002FCF24 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3386D1A11C1DF0FE002FCF24 /* Media.xcassets */; };
+		33DC01EA1D8D5DD200D1E00E /* Community Garden.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 33DC01E91D8D5DD200D1E00E /* Community Garden.MOV */; };
+		33DC01EC1D8D5F9000D1E00E /* USVI Flag.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 33DC01EB1D8D5F9000D1E00E /* USVI Flag.jpg */; };
 		33E61BD91C1C6600000F9233 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E61BD81C1C6600000F9233 /* main.m */; };
 		33E61BDC1C1C6600000F9233 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E61BDB1C1C6600000F9233 /* AppDelegate.m */; };
 		33E61BDF1C1C6600000F9233 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E61BDE1C1C6600000F9233 /* ViewController.m */; };
@@ -53,6 +55,8 @@
 
 /* Begin PBXFileReference section */
 		3386D1A11C1DF0FE002FCF24 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		33DC01E91D8D5DD200D1E00E /* Community Garden.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "Community Garden.MOV"; sourceTree = "<group>"; };
+		33DC01EB1D8D5F9000D1E00E /* USVI Flag.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "USVI Flag.jpg"; sourceTree = "<group>"; };
 		33E61BD41C1C6600000F9233 /* SaintCroix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaintCroix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33E61BD81C1C6600000F9233 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		33E61BDA1C1C6600000F9233 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -190,6 +194,8 @@
 		33E61C161C1DB3D4000F9233 /* Videos */ = {
 			isa = PBXGroup;
 			children = (
+				33DC01EB1D8D5F9000D1E00E /* USVI Flag.jpg */,
+				33DC01E91D8D5DD200D1E00E /* Community Garden.MOV */,
 				33E61C171C1DB3E6000F9233 /* Sejah vid 1.MOV */,
 				33E61C191C1DBD49000F9233 /* Sejah vid 2.MOV */,
 				33E61C1B1C1DC17B000F9233 /* GLS vid 1.MOV */,
@@ -268,11 +274,13 @@
 		33E61BCC1C1C6600000F9233 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0710;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Justin Haar";
 				TargetAttributes = {
 					33E61BD31C1C6600000F9233 = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = SF24QWC969;
+						ProvisioningStyle = Automatic;
 					};
 					33E61BEC1C1C6601000F9233 = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -318,7 +326,9 @@
 				33E61BE21C1C6600000F9233 /* Main.storyboard in Resources */,
 				33EC924A1C2260AF000F68FC /* Tropics.pdf in Resources */,
 				33E61C281C1DC2BE000F9233 /* Lagoon vid 3.MOV in Resources */,
+				33DC01EA1D8D5DD200D1E00E /* Community Garden.MOV in Resources */,
 				33E61C221C1DC23C000F9233 /* Hydroponic vid 1.MOV in Resources */,
+				33DC01EC1D8D5F9000D1E00E /* USVI Flag.jpg in Resources */,
 				33EC924C1C2264CC000F68FC /* SejahFarms.pdf in Resources */,
 				33E61C201C1DC1DB000F9233 /* Arthur A. Richards vid 1.MOV in Resources */,
 				33E61C291C1DC2BE000F9233 /* Lagoon vid 2.MOV in Resources */,
@@ -422,8 +432,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -465,8 +477,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -494,6 +508,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Justin Haar (3W87GUC28E)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = SF24QWC969;
 				INFOPLIST_FILE = SaintCroix/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -507,6 +523,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Justin Haar (3W87GUC28E)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = SF24QWC969;
 				INFOPLIST_FILE = SaintCroix/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
