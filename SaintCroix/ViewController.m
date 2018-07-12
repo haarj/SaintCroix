@@ -38,8 +38,8 @@
     [self.manager startUpdatingLocation];
 
     self.mapView.delegate = self;
-    [self.mapView setMapType:MKMapTypeSatelliteFlyover];
-
+    [self.mapView setMapType:MKMapTypeHybrid];
+    
     self.mapView.showsBuildings = YES;
     self.mapView.showsPointsOfInterest = YES;
     self.mapView.mapType = MKMapTypeSatelliteFlyover;

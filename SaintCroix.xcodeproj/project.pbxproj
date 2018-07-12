@@ -280,7 +280,7 @@
 					33E61BD31C1C6600000F9233 = {
 						CreatedOnToolsVersion = 7.1.1;
 						DevelopmentTeam = SF24QWC969;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					33E61BEC1C1C6601000F9233 = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -507,14 +507,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Justin Haar (3W87GUC28E)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Justin Haar (SF24QWC969)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Justin Haar (SF24QWC969)";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = SF24QWC969;
 				INFOPLIST_FILE = SaintCroix/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JustinHaar.SaintCroix;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "730659f5-fc97-4481-a87e-c3f36cf6deaa";
+				PROVISIONING_PROFILE_SPECIFIER = SaintCroixDist;
 			};
 			name = Debug;
 		};
@@ -522,14 +525,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Justin Haar (3W87GUC28E)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Justin Haar (SF24QWC969)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Justin Haar (SF24QWC969)";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = SF24QWC969;
 				INFOPLIST_FILE = SaintCroix/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JustinHaar.SaintCroix;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "730659f5-fc97-4481-a87e-c3f36cf6deaa";
+				PROVISIONING_PROFILE_SPECIFIER = SaintCroixDist;
 			};
 			name = Release;
 		};
